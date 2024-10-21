@@ -143,7 +143,55 @@ form button {
     border-radius: 5px;
     cursor: pointer;
 }
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    .logo {
+        left: 0;
+    }
+    .list {
+        flex-direction: column;
+        align-items: center;
+        right: 0;
+        gap: 20px;
+    }
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre {
+        width: 90%;
+    }
+    .sobre p {
+        width: 90%;
+    }
+    .conserto {
+        width: 90%;
+        margin: 20px 0;
+    }
+    .swiper {
+        width: 100%;
+        height: auto;
+    }
+    .swiper .swiper-slide img {
+        width: 100%;
+        height: auto;
+    }
+    .testemunhos {
+        flex-direction: column;
+    }
+    .test {
+        width: 90%;
+        margin: 20px 0;
+    }
+}
 
+@media (min-width: 1024px) {
+    .main-container {
+        justify-content: space-around;
+    }
+}
 .rodape {
     border-top: 1px solid white;
     margin-top: 40px;
