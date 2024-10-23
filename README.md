@@ -1,1 +1,1 @@
-Atividade 4 feita com html, css, javascript, foi utilizado flexbox e as seguintes APIs: Emailjs, bootstrap Swiper.js e AOS.js.
+Atividade 4 feita com html, css, javascript, foram utilizadas as seguintes APIs: Emailjs, Swiper.js e AOS.js.
