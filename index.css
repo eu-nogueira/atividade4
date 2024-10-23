@@ -32,7 +32,7 @@ header {
 }
 
 .logo:hover {
-    transform: rotatey(180deg);
+    transform: rotatey(360deg);
 }
 
 .list {
@@ -147,8 +147,18 @@ form button {
     header {
         flex-direction: column;
     }
+    .menu {
+        height: 150px;
+    }
+    .swiper-wrapper {
+        height: 300px;
+    }
+    .swiper-wrapper img{
+        max-height: 250px;
+    }
     .logo {
         left: 0;
+        margin-bottom: 10px;
     }
     .test img {
         width: 100%;
